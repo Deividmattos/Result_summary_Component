@@ -1,0 +1,41 @@
+:root {
+  --Light: hsl(0, 100%, 67%);
+  --Orangey: hsl(39, 100%, 56%);
+  --Green: hsl(166, 100%, 37%);
+  --Cobalt: hsl(234, 85%, 45%);
+
+  --White: hsl(0, 0%, 100%);
+  --Pale: hsl(221, 100%, 96%);
+  --Light: hsl(241, 100%, 89%);
+  --Dark: hsl(224, 30%, 27%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: var(--Pale);
+}
+.container {
+  display: flex;
+  border-radius: 20px;
+}
+.result {
+  width: 50%;
+  background-color: var(--Cobalt);
+  border-radius: 20px;
+}
+.summary {
+  width: 50%;
+  background-color: var(--White);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.summaty h2 {
+  margin-left: 30px;
+}
